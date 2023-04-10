@@ -1,0 +1,22 @@
+# This 1st project is to ask users their name and age and tel them when they will be 100 years old
+
+# This project is used to help familiarize with:
+# 1 User Inputs
+# 2 Print Statements
+# 3 String Manipulation & F String
+
+print("Please Enter Name and Age Below to See When You Will Turn 100 Years Old")
+print('\n')
+
+name = input("Enter Your Name: ")
+age = int(input("Enter Your Age: "))
+print(f"Your name is {name}, and you are {age} years old")
+print("\n")
+
+CurrentYear = int(input("Enter Current Year: "))
+Hundred = (CurrentYear - age) + 100
+print("You Will Be 100 years Old In The year:", Hundred)
+
+n = int(input("How Many Times would You Like to Print This Message?: "))
+for x in range(n):
+    print(f"Your name is {name}, and you are {age} years old. You will be 100 in the year", Hundred)
